@@ -1,0 +1,39 @@
+.category {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.main-title {
+    text-align: center;
+    grid-column: span 2;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 50px 0 20px;
+}
+
+
+
+.category .category-list{
+    border: 1px solid red;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 0;
+    padding-left: 50px;
+    background-color: #F7F9FC;
+    border-radius: 5px;
+}
+
+.category .category-list .title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.category .category-list b{
+    font-size: 14px;
+}
+

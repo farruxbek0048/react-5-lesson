@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.active-link{
+  color: #60B5FD;
+  font-size: 20px;
+}
+
+
+body {
+  min-height: 100vh;
+  border: 1px solid red;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1536px;
+  width: 100%;
+  margin: 0 auto;
+}
