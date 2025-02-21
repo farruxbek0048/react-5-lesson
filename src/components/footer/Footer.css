@@ -1,0 +1,100 @@
+footer{
+    min-width: 600px;
+    margin-top: 50px;
+    background-color: #F7F9FC;
+    padding: 100px 0 80px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-right{
+    display: flex;
+}
+
+footer .footer-right .table ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+
+footer .footer-right .table ul th{
+    padding-bottom: 5px;
+}
+
+footer .footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+}
+
+footer .footer-left p{
+    line-height: 24px;
+}
+
+footer .footer-left .items{
+    color: gray;
+    display: flex;
+    gap: 20px
+}
+
+footer .footer-left .items i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+footer .footer-left .items i:hover{
+    width: 30px;
+    height: 30px;
+    background-color: #008AFF;
+    border-radius: 50%;
+    color: white;
+    
+}
+
+footer .footer-right .table{
+    width: 205px;
+}
+
+footer .footer-right .table .btns{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .footer-right .table .btns .button-1{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    
+    border: none;
+    gap: 8px
+}
+
+footer .footer-right .table .btns .button-2{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #008AFF;
+    color: white;
+    border: none;
+
+
+}
+
+

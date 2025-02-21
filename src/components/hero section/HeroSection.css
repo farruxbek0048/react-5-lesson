@@ -1,0 +1,19 @@
+.hero-section{
+    width: 100%;
+    min-height: 400px;
+    background-color: #F7F9FC;
+}
+
+.hero-section .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+}
+
+.hero-section .container p{
+    width: 800px;
+    margin: 0 auto;
+}
