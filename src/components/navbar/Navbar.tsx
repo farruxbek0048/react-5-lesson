@@ -1,5 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import './Navbar.css'
+import Start from './../../pages/start/Start';
+import About from './../../pages/about/About';
 function Navbar() {
   return (
     <div className='navbar'>
@@ -10,10 +12,10 @@ function Navbar() {
       <nav>
         <ul>
           <li>
-            <NavLink to='/' className={({isActive}) => (isActive? "active-link" : "")}> Asosiy sahifa</NavLink>
+            <NavLink to='/' className={({isActive}) => (isActive? "active-link" : "")}>Start</NavLink>
           </li>
           <li>
-            <NavLink to='/about' className={({isActive}) => (isActive? "active-link" : "")}> Asosiy</NavLink>
+            <NavLink to='/about' className={({isActive}) => (isActive? "active-link" : "")}>About</NavLink>
           </li>
         </ul>
         <button className="started">Get Started Now</button>
