@@ -13,7 +13,7 @@ function Navbar() {
             <NavLink to='/' className={({isActive}) => (isActive? "active-link" : "")}>Start</NavLink>
           </li>
           <li>
-            <NavLink to='/about' className={({isActive}) => (isActive? "active-link" : "")}>Start</NavLink>
+            <NavLink to='/about' className={({isActive}) => (isActive? "active-link" : "")}>About</NavLink>
           </li>
         </ul>
         <button className="started">Get Started Now</button>
